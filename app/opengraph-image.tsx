@@ -11,8 +11,15 @@ export const contentType = "image/png";
 export default async function Image() {
   return new ImageResponse(
     (
-      <div tw="h-full w-full flex flex-col justify-center items-center relative bg-white">
-        <h1 tw="text-6xl">vibe coding starter</h1>
+      <div
+        tw="h-full w-full flex flex-col justify-center items-center relative"
+        style={{
+            backgroundImage: "url(https://i.im.ge/2025/03/19/pIU1pS.Untitled-design-15.png)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <h1 tw="text-6xl text-white"></h1>
       </div>
     ),
     {
@@ -20,3 +27,4 @@ export default async function Image() {
     }
   );
 }
+

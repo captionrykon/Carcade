@@ -5,14 +5,14 @@ const appUrl = process.env.NEXT_PUBLIC_URL;
 
 const frame = {
   version: "next",
-  imageUrl: `${appUrl}/opengraph-image`,
+  imageUrl: "https://i.im.ge/2025/03/19/pIU1pS.Untitled-design-15.png",
   button: {
     title: "Launch Frame",
     action: {
       type: "launch_frame",
-      name: "vibe coding starter",
+      name: "TrenchVerse",
       url: appUrl,
-      splashImageUrl: `${appUrl}/splash.png`,
+      splashImageUrl: "https://i.im.ge/2025/03/19/pIU1pS.Untitled-design-15.png",
       splashBackgroundColor: "#f7f7f7",
     },
   },
@@ -22,11 +22,11 @@ export const revalidate = 300;
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "vibe-coding-starter",
+    title: "TrenchVerse",
     openGraph: {
-      title: "vibe-coding-starter",
+      title: "TrenchVerse",
       description:
-        "Starter project for Vibe Coding Farcaster Frames with Next.js",
+        "",
     },
     other: {
       "fc:frame": JSON.stringify(frame),

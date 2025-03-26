@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "vibe-coding-starter",
-  description: "Starter project for Vibe Coding Farcaster Frames with Next.js",
+  title: "Carcade",
+  description: "",
 };
 
 export default function RootLayout({
