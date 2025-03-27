@@ -5,14 +5,14 @@ const appUrl = process.env.NEXT_PUBLIC_URL;
 
 const frame = {
   version: "next",
-  imageUrl: "https://i.im.ge/2025/03/19/pIU1pS.Untitled-design-15.png",
+  imageUrl: "https://i.im.ge/2025/03/26/p0S28G.Untitled-design-31.png",
   button: {
     title: "Launch Frame",
     action: {
       type: "launch_frame",
       name: "TrenchVerse",
       url: appUrl,
-      splashImageUrl: "https://i.im.ge/2025/03/19/pIU1pS.Untitled-design-15.png",
+      splashImageUrl: "https://i.im.ge/2025/03/26/p0S28G.Untitled-design-31.png",
       splashBackgroundColor: "#f7f7f7",
     },
   },

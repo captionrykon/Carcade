@@ -14,7 +14,7 @@ export default async function Image() {
       <div
         tw="h-full w-full flex flex-col justify-center items-center relative"
         style={{
-            backgroundImage: "url(https://i.im.ge/2025/03/19/pIU1pS.Untitled-design-15.png)",
+            backgroundImage: "url(https://i.im.ge/2025/03/26/p0S28G.Untitled-design-31.png)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
