@@ -1,0 +1,18 @@
+{
+    "accountAssociation": {
+        "header": "eyJmaWQiOjEwMjAyNTEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg5ZDZBMzk3RjA0Yjk1NDk2QTIwNzVDRDBkMUUyYTIyMkZCZTA2ZGE0In0",
+        "payload": "eyJkb21haW4iOiJjYXJjYWRlLXVuaXR5LnZlcmNlbC5hcHAifQ",
+        "signature": "MHgxNDZmZDdiOTJmZDdiYWY4OWM5ZjAxM2YyNjBlMDdlYjgzNTdjMmQzYTE4NGM5NzRiZWNhY2JlMjdjNmJjODcwNWU3MDkxYTE3YmQyNTM2ZDk1ZWJmYjAzZjhmZTExMzY0ZmZmNWRmMWRlZjAxZDVjZmMwM2ZmNmMwYWI5MTNmNTFi"
+    },
+    "frame": {
+        "version": "1",
+        "name": "Example Frame",
+        "iconUrl": "https://i.im.ge/2025/03/26/p0S28G.Untitled-design-31.png",
+        "homeUrl": "https://carcade-unity.vercel.app",
+        "imageUrl": "https://i.im.ge/2025/03/26/p0S28G.Untitled-design-31.png",
+        "buttonTitle": "Check this out",
+        "splashImageUrl": "https://i.im.ge/2025/03/26/p0S28G.Untitled-design-31.png",
+        "splashBackgroundColor": "#eeccff",
+        "webhookUrl": "https://carcade-unity.vercel.app/api/webhook"
+    }
+}
