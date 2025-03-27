@@ -13,6 +13,6 @@
         "buttonTitle": "Check this out",
         "splashImageUrl": "https://i.im.ge/2025/03/26/p0S28G.Untitled-design-31.png",
         "splashBackgroundColor": "#eeccff",
-        "webhookUrl": "https://carcade-unity.vercel.app/api/webhook"
+        "webhookUrl": "https://carcade.vercel.app/api/webhook"
     }
 }
