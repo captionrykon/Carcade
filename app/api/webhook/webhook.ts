@@ -26,7 +26,7 @@ export async function POST(req: NextRequest) {
       await sendFarcasterNotification({
         title: "Thanks for adding our Frame!",
         body: "🚀 Stay tuned for updates!",
-          targetUrl: "https://carcade.vercel.app/",
+        targetUrl: "https://carcade.vercel.app/",
         tokens: [payload.notificationDetails?.token], // Notification token
       });
     }
