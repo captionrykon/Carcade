@@ -10,7 +10,7 @@ const frame = {
     title: "Launch Frame",
     action: {
       type: "launch_frame",
-      name: "TrenchVerse",
+      name: "Carcade",
       url: appUrl,
       splashImageUrl: "https://i.im.ge/2025/03/26/p0S28G.Untitled-design-31.png",
       splashBackgroundColor: "#f7f7f7",
@@ -22,9 +22,9 @@ export const revalidate = 300;
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "TrenchVerse",
+    title: "Carcade",
     openGraph: {
-      title: "TrenchVerse",
+      title: "Carcade",
       description:
         "",
     },
